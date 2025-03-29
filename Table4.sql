@@ -1,0 +1,52 @@
+create table StudentAttendance (
+    AttendanceID bigint,
+    StudentName varchar,
+    class varchar,
+    Date DATE,
+    Status varchar 
+	
+)
+
+select * from StudentAttendance 
+
+insert into StudentAttendance (AttendanceID, StudentName, Class, Date, Status) values 
+    (1, 'Alice Johnson', 'Math', '2023-03-01', 'Present'),
+    (2, 'Bob Smith', 'Science', '2023-03-01', 'Absent'),
+    (3, 'Carol Brown', 'English', '2023-03-01', 'Late'),
+    (4, 'David Lee', 'Math', '2023-03-02', 'Present'),
+    (5, 'Emily Wilson', 'Science', '2023-03-02', 'Absent'),
+    (6, 'Frank Harris', 'English', '2023-03-02', 'Present'),
+    (7, 'Grace Adams', 'Math', '2023-03-03', 'Late'),
+    (8, 'Henry Moore', 'Science', '2023-03-03', 'Present'),
+    (9, 'Irene Clark', 'English', '2023-03-03', 'Present'),
+    (10, 'Jack Lewis', 'Math', '2023-03-04', 'Absent'),
+    (11, 'Karen Taylor', 'Science', '2023-03-04', 'Present'),
+    (12, 'Luke Thomas', 'English', '2023-03-04', 'Late'),
+    (13, 'Molly White', 'Math', '2023-03-05', 'Present'),
+    (14, 'Nick Scott', 'Science', '2023-03-05', 'Absent'),
+    (15, 'Olivia Green', 'English', '2023-03-05', 'Present'),
+    (16, 'Paul Young', 'Math', '2023-03-06', 'Late'),
+    (17, 'Quinn Baker', 'Science', '2023-03-06', 'Present'),
+    (18, 'Rachel Hall', 'English', '2023-03-06', 'Absent'),
+    (19, 'Sam Allen', 'Math', '2023-03-07', 'Present'),
+    (20, 'Tina Wright', 'Science', '2023-03-07', 'Late'),
+    (21, 'Uma Carter', 'English', '2023-03-07', 'Present'),
+    (22, 'Victor Evans', 'Math', '2023-03-08', 'Absent'),
+    (23, 'Wendy Turner', 'Science', '2023-03-08', 'Present'),
+    (24, 'Xavier Morris', 'English', '2023-03-08', 'Late'),
+    (25, 'Yara Bennett', 'Math', '2023-03-09', 'Present'),
+    (26, 'Zack Phillips', 'Science', '2023-03-09', 'Absent'),
+    (27, 'Abby Hughes', 'English', '2023-03-09', 'Present'),
+    (28, 'Brad Foster', 'Math', '2023-03-10', 'Late'),
+    (29, 'Cindy Ward', 'Science', '2023-03-10', 'Present'),
+    (30, 'Derek James', 'English', '2023-03-10', 'Absent'),
+    (31, 'Ella Cooper', 'Math', '2023-03-11', 'Present'),
+    (32, 'Fred Watson', 'Science', '2023-03-11', 'Late'),
+    (33, 'Gina Brooks', 'English', '2023-03-11', 'Present'),
+    (34, 'Harry Rogers', 'Math', '2023-03-12', 'Absent'),
+    (35, 'Isla Reed', 'Science', '2023-03-12', 'Present'),
+    (36, 'Jack Kelly', 'English', '2023-03-12', 'Late'),
+    (37, 'Kathy Price', 'Math', '2023-03-13', 'Present'),
+    (38, 'Liam Bailey', 'Science', '2023-03-13', 'Absent'),
+    (39, 'Mia Gray', 'English', '2023-03-13', 'Present'),
+    (40, 'Noah Powell', 'Math', '2023-03-14', 'Late')
