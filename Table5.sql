@@ -1,0 +1,52 @@
+
+create table CarDetails (
+    carid bigint,
+    carbrand varchar,
+    Model varchar,
+    Year bigint,
+    price bigint
+)
+
+select * from CarDetails
+
+insert into CarDetails (carid, carbrand, Model, Year, price)values
+    (1, 'Toyota', 'Corolla', 2019, 20000),
+    (2, 'Honda', 'Civic', 2020, 22000),
+    (3, 'Ford', 'Focus', 2018, 18000),
+    (4, 'Chevrolet', 'Cruze', 2017, 17000),
+    (5, 'BMW', '3 Series', 2021, 35000),
+    (6, 'Audi', 'A4', 2020, 37000),
+    (7, 'Mercedes-Benz', 'C-Class', 2021, 40000),
+    (8, 'Hyundai', 'Elantra', 2019, 19000),
+    (9, 'Kia', 'Optima', 2018, 21000),
+    (10, 'Volkswagen', 'Jetta', 2020, 23000),
+    (11, 'Tesla', 'Model 3', 2021, 45000),
+    (12, 'Nissan', 'Altima', 2019, 24000),
+    (13, 'Mazda', 'Mazda3', 2020, 22000),
+    (14, 'Subaru', 'Impreza', 2021, 21000),
+    (15, 'Volvo', 'S60', 2020, 37000),
+    (16, 'Lexus', 'ES', 2019, 39000),
+    (17, 'Toyota', 'Camry', 2018, 25000),
+    (18, 'Honda', 'Accord', 2021, 28000),
+    (19, 'Ford', 'Fusion', 2020, 26000),
+    (20, 'Chevrolet', 'Malibu', 2019, 24000),
+    (21, 'BMW', '5 Series', 2021, 55000),
+    (22, 'Audi', 'A6', 2020, 60000),
+    (23, 'Mercedes-Benz', 'E-Class', 2021, 65000),
+    (24, 'Hyundai', 'Sonata', 2019, 20000),
+    (25, 'Kia', 'Stinger', 2020, 32000),
+    (26, 'Volkswagen', 'Passat', 2018, 21000),
+    (27, 'Tesla', 'Model S', 2021, 80000),
+    (28, 'Nissan', 'Maxima', 2020, 30000),
+    (29, 'Mazda', 'CX-5', 2021, 27000),
+    (30, 'Subaru', 'Outback', 2019, 29000),
+    (31, 'Volvo', 'XC40', 2020, 35000),
+    (32, 'Lexus', 'RX', 2021, 45000),
+    (33, 'Toyota', 'RAV4', 2020, 26000),
+    (34, 'Honda', 'CR-V', 2019, 27000),
+    (35, 'Ford', 'Escape', 2021, 28000.),
+    (36, 'Chevrolet', 'Equinox', 2020, 29000),
+    (37, 'BMW', 'X3', 2021, 42000),
+    (38, 'Audi', 'Q5', 2020, 45000),
+    (39, 'Mercedes-Benz', 'GLC', 2021, 47000),
+    (40, 'Hyundai', 'Tucson', 2019, 24000);

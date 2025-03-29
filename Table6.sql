@@ -1,0 +1,52 @@
+
+create table Courses (
+    courseid bigint,
+    coursename varchar,
+    facultyname varchar,
+    Duration bigint,
+    Fee bigint
+)
+
+select * from Courses 
+
+insert into Courses (courseid,coursename,facultyname,Duration,Fee) values
+    (1, 'Introduction to Python', 'Alice Johnson', 8, 300),
+    (2, 'Data Science Fundamentals', 'Bob Smith', 12, 500),
+    (3, 'Web Development with HTML/CSS', 'Carol Brown', 10, 400),
+    (4, 'Advanced Java Programming', 'David Lee', 16, 600),
+    (5, 'Machine Learning Basics', 'Emily Wilson', 12, 700),
+    (6, 'Cloud Computing 101', 'Frank Harris', 8, 450),
+    (7, 'Cybersecurity Essentials', 'Grace Adams', 10, 500),
+    (8, 'Digital Marketing Strategies', 'Henry Moore', 6, 300),
+    (9, 'Database Management Systems', 'Irene Clark', 14, 550),
+    (10, 'Mobile App Development', 'Jack Lewis', 12, 650),
+    (11, 'Introduction to AI', 'Karen Taylor', 10, 600),
+    (12, 'Big Data Analytics', 'Luke Thomas', 14, 750),
+    (13, 'Frontend Development with React', 'Molly White', 8, 5000),
+    (14, 'Backend Development with Node.js', 'Nick Scott', 10, 550),
+    (15, 'Graphic Design Basics', 'Olivia Green', 6, 300.00),
+    (16, '3D Modeling and Animation', 'Paul Young', 12, 7000),
+    (17, 'SEO Optimization Techniques', 'Quinn Baker', 6, 2500),
+    (18, 'Ethical Hacking', 'Rachel Hall', 14, 8000),
+    (19, 'Blockchain Development', 'Sam Allen', 16, 10000),
+    (20, 'Game Development with Unity', 'Tina Wright', 14, 9000),
+    (21, 'Business Analytics', 'Uma Carter', 8, 4000),
+    (22, 'Project Management Professional (PMP)', 'Victor Evans', 12, 7000),
+    (23, 'Introduction to Kubernetes', 'Wendy Turner', 8, 5000),
+    (24, 'DevOps Practices', 'Xavier Morris', 10, 5500),
+    (25, 'Data Visualization with Tableau', 'Yara Bennett', 6, 4000),
+    (26, 'Advanced Excel for Business', 'Zack Phillips', 8, 3000),
+    (27, 'Robotics Fundamentals', 'Abby Hughes', 14, 8500),
+    (28, 'Quantum Computing Basics', 'Brad Foster', 12, 9500),
+    (29, 'Video Editing with Premiere Pro', 'Cindy Ward', 8, 400),
+    (30, 'Photography and Photoshop', 'Derek James', 10, 3500),
+    (31, 'Introduction to Networking', 'Ella Cooper', 8, 4500),
+    (32, 'AWS Solutions Architect', 'Fred Watson', 12, 9000),
+    (33, 'IoT Basics', 'Gina Brooks', 10, 6000),
+    (34, 'Advanced Cybersecurity', 'Harry Rogers', 16, 10000),
+    (35, 'Python for Data Analysis', 'Isla Reed', 10, 5500),
+    (36, 'C++ Programming', 'Jack Kelly', 12, 5000),
+    (37, 'Artificial Intelligence Advanced', 'Kathy Price', 14, 11000),
+    (38, 'Introduction to Robotics', 'Liam Bailey', 10, 8000),
+    (39, 'Web Application Security', 'Mia Gray', 12, 7500),
+    (40, 'UI/UX Design', 'Noah Powell', 10, 650)

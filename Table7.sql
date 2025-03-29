@@ -1,0 +1,52 @@
+
+create table Cricket (
+    Playerid bigint,
+    PlayerName varchar,
+    Team varchar,
+    MatchesPlayed bigint,
+    TotalRuns bigint
+)
+
+select * from Cricket 
+
+insert into Cricket (Playerid, PlayerName, Team, MatchesPlayed, TotalRuns) values
+    (1, 'Virat Kohli', 'India', 250, 12450),
+    (2, 'Steve Smith', 'Australia', 150, 7500),
+    (3, 'Joe Root', 'England', 180, 8500),
+    (4, 'Kane Williamson', 'New Zealand', 145, 7300),
+    (5, 'Babar Azam', 'Pakistan', 125, 6200),
+    (6, 'David Warner', 'Australia', 190, 9200),
+    (7, 'Rohit Sharma', 'India', 220, 11300),
+    (8, 'Ben Stokes', 'England', 135, 5200),
+    (9, 'Shakib Al Hasan', 'Bangladesh', 210, 6800),
+    (10, 'Quinton de Kock', 'South Africa', 180, 7400),
+    (11, 'Jos Buttler', 'England', 170, 6300),
+    (12, 'Glenn Maxwell', 'Australia', 145, 4300),
+    (13, 'Rashid Khan', 'Afghanistan', 120, 1100),
+    (14, 'Jasprit Bumrah', 'India', 100, 150),
+    (15, 'Trent Boult', 'New Zealand', 130, 220),
+    (16, 'Pat Cummins', 'Australia', 125, 500),
+    (17, 'Kagiso Rabada', 'South Africa', 110, 350),
+    (18, 'Shreyas Iyer', 'India', 95, 3200),
+    (19, 'Mushfiqur Rahim', 'Bangladesh', 200, 6600),
+    (20, 'Faf du Plessis', 'South Africa', 190, 8200),
+    (21, 'Eoin Morgan', 'England', 240, 9000),
+    (22, 'Andre Russell', 'West Indies', 120, 2700),
+    (23, 'Chris Gayle', 'West Indies', 300, 10400),
+    (24, 'Marnus Labuschagne', 'Australia', 85, 3200),
+    (25, 'Mitchell Starc', 'Australia', 95, 220),
+    (26, 'KL Rahul', 'India', 100, 4200),
+    (27, 'Tamim Iqbal', 'Bangladesh', 210, 7500),
+    (28, 'Mohammad Nabi', 'Afghanistan', 140, 2900),
+    (29, 'Imran Tahir', 'South Africa', 100, 100),
+    (30, 'Jason Holder', 'West Indies', 120, 1900),
+    (31, 'Aaron Finch', 'Australia', 170, 6100),
+    (32, 'Shaheen Afridi', 'Pakistan', 80, 90),
+    (33, 'Hardik Pandya', 'India', 115, 2300),
+    (34, 'Surya Kumar Yadav', 'India', 60, 2000),
+    (35, 'Ravindra Jadeja', 'India', 230, 2600),
+    (36, 'Yuzvendra Chahal', 'India', 90, 100),
+    (37, 'Jason Roy', 'England', 110, 3800),
+    (38, 'Temba Bavuma', 'South Africa', 75, 2700),
+    (39, 'Martin Guptill', 'New Zealand', 220, 8500),
+    (40, 'Ross Taylor', 'New Zealand', 230, 8600)

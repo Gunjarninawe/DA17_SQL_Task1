@@ -1,0 +1,52 @@
+
+create table Mobile (
+    MobileID bigint,
+    Brand varchar,
+    Model varchar,
+    Price bigint,
+    LaunchYear bigint
+)
+
+select * from Mobile
+
+insert into Mobile (MobileID, Brand, Model, Price, LaunchYear)values
+    (1, 'Apple', 'iPhone 14 Pro', 99999, 2022),
+    (2, 'Samsung', 'Galaxy S23 Ultra', 1199.99, 2023),
+    (3, 'OnePlus', 'OnePlus 11', 699, 2023),
+    (4, 'Google', 'Pixel 7 Pro', 8999, 2022),
+    (5, 'Xiaomi', 'Mi 12 Ultra', 7999, 2022),
+    (6, 'Oppo', 'Find X5 Pro', 7499, 2022),
+    (7, 'Vivo', 'X90 Pro+', 9999, 2023),
+    (8, 'Realme', 'GT 3 Neo', 4999, 2023),
+    (9, 'Motorola', 'Edge 40', 5999, 2023),
+    (10, 'Nokia', 'G60 5G', 3999, 2022),
+    (11, 'Asus', 'ROG Phone 6', 10999, 2022),
+    (12, 'Sony', 'Xperia 1 IV', 11999, 2022),
+    (13, 'Huawei', 'P50 Pro', 7999, 2022),
+    (14, 'Honor', 'Magic 5 Pro', 6999, 2023),
+    (15, 'Apple', 'iPhone 13', 7999, 2021),
+    (16, 'Samsung', 'Galaxy Z Fold4', 17999, 2022),
+    (17, 'Google', 'Pixel 6a', 4499, 2022),
+    (18, 'Xiaomi', 'Redmi Note 12 Pro', 3499, 2023),
+    (19, 'Oppo', 'Reno 8T', 5499, 2023),
+    (20, 'Realme', 'Narzo 60', 2999, 2023),
+    (21, 'OnePlus', 'Nord 2T', 3999, 2022),
+    (22, 'Motorola', 'Razr 40 Ultra', 9999, 2023),
+    (23, 'Nokia', 'X30 5G', 4999, 2022),
+    (24, 'Asus', 'Zenfone 9', 7499, 2022),
+    (25, 'Sony', 'Xperia 5 IV', 9499, 2022),
+    (26, 'Huawei', 'Nova 10 Pro', 5999, 2022),
+    (27, 'Vivo', 'T1 5G', 2999, 2022),
+    (28, 'Honor', 'X9a', 3499, 2023),
+    (29, 'Apple', 'iPhone SE (3rd Gen)', 4299, 2022),
+    (30, 'Samsung', 'Galaxy A53', 4499, 2022),
+    (31, 'Xiaomi', 'Poco X5 Pro', 3799, 2023),
+    (32, 'Realme', 'C55', 1999, 2023),
+    (33, 'Oppo', 'A78 5G', 2499, 2023),
+    (34, 'Google', 'Pixel 5a', 49999, 2021),
+    (35, 'OnePlus', '10 Pro', 89999, 2022),
+    (36, 'Motorola', 'G82', 29999, 2022),
+    (37, 'Huawei', 'Mate Xs 2', 159.99, 2022),
+    (38, 'Sony', 'Xperia 10 IV', 39999, 2022),
+    (39, 'Vivo', 'Y100', 32999, 2023),
+    (40, 'Honor', '70 Lite', 29999, 2023)

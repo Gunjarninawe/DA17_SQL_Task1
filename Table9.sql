@@ -1,0 +1,52 @@
+
+create table Companies (
+    CompanyID bigint,
+    CompanyName varchar,
+    Industry varchar,
+    Revenue bigint,
+    FoundedYear bigint
+)
+
+select * from companies  
+
+insert into Companies (CompanyID, CompanyName, Industry, Revenue, FoundedYear) values
+    (1, 'Apple Inc.', 'Technology', 300, 1976),
+    (2, 'Microsoft Corp.', 'Technology', 211, 1975),
+    (3, 'Amazon', 'E-commerce', 513, 1994),
+    (4, 'Google (Alphabet)', 'Technology', 282, 1998),
+    (5, 'Facebook (Meta)', 'Social Media', 1166, 2004),
+    (6, 'Tesla', 'Automotive', 8146, 2003),
+    (7, 'Samsung', 'Electronics', 2443.00, 1938),
+    (8, 'Walmart', 'Retail', 6112, 1962),
+    (9, 'Toyota', 'Automotive', 2793, 1937),
+    (10, 'Berkshire Hathaway', 'Finance', 3020, 1839),
+    (11, 'Procter & Gamble', 'Consumer Goods', 8000, 1837),
+    (12, 'Johnson & Johnson', 'Pharmaceuticals', 9457, 1886),
+    (13, 'Coca-Cola', 'Beverages', 4311, 1892),
+    (14, 'PepsiCo', 'Beverages', 8603, 1965),
+    (15, 'Intel', 'Semiconductors', 6310, 1968),
+    (16, 'IBM', 'Technology', 6020, 1911),
+    (17, 'Oracle', 'Technology', 4995, 1977),
+    (18, 'Cisco Systems', 'Networking', 5183, 1984),
+    (19, 'Netflix', 'Entertainment', 3150, 1997),
+    (20, 'Nike', 'Apparel', 5148, 1964),
+    (21, 'Adidas', 'Apparel', 2550, 1949),
+    (22, 'Sony', 'Electronics', 8100, 1946),
+    (23, 'LG Electronics', 'Electronics', 6541.00, 1958),
+    (24, 'Huawei', 'Technology', 9290.00, 1987),
+    (25, 'Dell', 'Technology', 102300.00, 1984),
+    (26, 'HP', 'Technology', 62980, 1939),
+    (27, 'PayPal', 'Finance', 2770, 1998),
+    (28, 'Square (Block)', 'Finance', 1700, 2009),
+    (29, 'Airbnb', 'Travel', 8900, 2008),
+    (30, 'Uber', 'Transportation', 315000, 2009),
+    (31, 'Lyft', 'Transportation', 41000, 2012),
+    (32, 'TikTok (ByteDance)', 'Social Media', 19000, 2016),
+    (33, 'Alibaba', 'E-commerce', 1345, 1999),
+    (34, 'Tencent', 'Technology', 82000, 1998),
+    (35, 'Zoom Video', 'Technology', 4400, 2011),
+    (36, 'SpaceX', 'Aerospace', 24000.00, 2002),
+    (37, 'Spotify', 'Entertainment', 121500, 2006),
+    (38, 'Twitter (X)', 'Social Media', 5700, 2006),
+    (39, 'Snapchat', 'Social Media', 4600, 2011),
+    (40, 'Salesforce', 'Technology', 31520, 1999)
